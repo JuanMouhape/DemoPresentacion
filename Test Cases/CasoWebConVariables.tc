@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CasoWebConVariables</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e505cdc6-b064-47fa-b5be-373eabaecc6a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4c73c161-89e4-4636-9fdd-e0029c530138</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>66bb2cd8-5ce8-4073-97a8-8c0d052f3cc2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>48704acf-1309-48b9-a62d-98b47c79a186</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b37bd0e4-677e-4562-8c59-6eaffa2e4328</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Juan Cruz Mouhape'</defaultValue>
+      <description></description>
+      <id>4c73c161-89e4-4636-9fdd-e0029c530138</id>
+      <masked>false</masked>
+      <name>fullName</name>
+   </variable>
+   <variable>
+      <defaultValue>'pruebademo@gmail.com'</defaultValue>
+      <description></description>
+      <id>66bb2cd8-5ce8-4073-97a8-8c0d052f3cc2</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'Pasaje San Luis 252'</defaultValue>
+      <description></description>
+      <id>48704acf-1309-48b9-a62d-98b47c79a186</id>
+      <masked>false</masked>
+      <name>currentAddress</name>
+   </variable>
+   <variable>
+      <defaultValue>'Pasaje San Luis 252'</defaultValue>
+      <description></description>
+      <id>b37bd0e4-677e-4562-8c59-6eaffa2e4328</id>
+      <masked>false</masked>
+      <name>permanentAddress</name>
+   </variable>
+</TestCaseEntity>
