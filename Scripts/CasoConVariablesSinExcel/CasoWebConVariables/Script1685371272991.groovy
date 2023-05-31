@@ -41,7 +41,7 @@ WebUI.scrollToElement(findTestObject('Page_DEMOQA/button_Submit'), 4)
 
 WebUI.click(findTestObject('Object Repository/Page_DEMOQA/button_Submit'))
 
-WebUI.takeFullPageScreenshot()
+WebUI.takeFullPageScreenshotAsCheckpoint('imagenPrueba')
 
 retornoFullName = WebUI.getText(findTestObject('Object Repository/Page_DEMOQA/p_NameJuan Cruz Mouhape'))
 
