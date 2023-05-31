@@ -27,5 +27,5 @@ Característica: Flujo de trabajo
 
     Ejemplos: 
       |	usuario	|	clave											| nombreApellido 		 | idEmpleado  | 
-      |	Admin		|	hUKwJTbofgPU9eVlw/CnDQ== 	|	Juan Cruz Mouhape  | 03100258		 |
+      |	Admin		|	hUKwJTbofgPU9eVlw/CnDQ== 	|	Juan Cruz Mouhape  | 0000000		 |
       |	Admin		|	hUKwJTbofgPU9eVlw/CnDQ== 	|	Kevin Mathews			 | 0058		     |
