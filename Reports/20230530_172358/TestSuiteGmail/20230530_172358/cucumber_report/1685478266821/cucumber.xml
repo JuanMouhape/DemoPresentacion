@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="65.574237">
+<testcase classname="Flujo de trabajo" name="Dar de alta registro de emppleado" time="31.225772">
+<system-out><![CDATA[Dado que el usuario ingresa al sitio web....................................passed
+Y el usuario ingresa sus credenciales de manera correcta usuario y clave Admin, hUKwJTbofgPU9eVlw/CnDQ==.passed
+Cuando quiero agregar un nuevo empleado al registro.........................passed
+Y ingreso los datos Juan, Mouhape y 1111....................................passed
+Y presiono el boton guardar.................................................passed
+Entonces Se verifica que se agrego el empleado de forma correcta............passed
+]]></system-out>
+</testcase>
+<testcase classname="Flujo de trabajo" name="Dar de alta registro de emppleado 2" time="34.348465">
+<system-out><![CDATA[Dado que el usuario ingresa al sitio web....................................passed
+Y el usuario ingresa sus credenciales de manera correcta usuario y clave Admin, hUKwJTbofgPU9eVlw/CnDQ==.passed
+Cuando quiero agregar un nuevo empleado al registro.........................passed
+Y ingreso los datos Juan, Rodriguez y 2222..................................passed
+Y presiono el boton guardar.................................................passed
+Entonces Se verifica que se agrego el empleado de forma correcta............passed
+]]></system-out>
+</testcase>
+</testsuite>

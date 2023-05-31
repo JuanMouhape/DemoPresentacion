@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuiteArchivoCsv" time="47.676" tests="3" failures="0" errors="0">
+   <testsuite name="TestSuiteArchivoCsv" tests="3" failures="0" errors="0" time="47.676" skipped="0" timestamp="2023-05-30 12:20:48" hostname="admin - 192.168.0.8" id="Test Suites/TestSuiteArchivoCsv">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\admin\\git\\DemoPresentacion\\Reports\\20230530_122044\\TestSuiteArchivoCsv\\20230530_122044"/>
+         <property name="logFiles" value="C:\\Users\\admin\\git\\DemoPresentacion\\Reports\\20230530_122044\\TestSuiteArchivoCsv\\20230530_122044\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="admin - 192.168.0.8"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 113.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.8"/>
+         <property name="sessionId" value="e50074dec2da2ac1deea9c68aa4fedc6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/CasosExcel/CasoWebConArchivoCsvExcel" time="16.941" classname="Test Cases/CasosExcel/CasoWebConArchivoCsvExcel" status="PASSED">
+         <system-out><![CDATA[2023-05-30 12:20:48 - [TEST_CASE][PASSED] - Test Cases/CasosExcel/CasoWebConArchivoCsvExcel: Test Cases/CasosExcel/CasoWebConArchivoCsvExcel
+
+2023-05-30 12:20:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-30 12:20:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-30 12:20:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-30 12:20:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-30 12:20:52 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/"): Navigate to 'https://demoqa.com/' successfully
+
+2023-05-30 12:20:57 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+2023-05-30 12:20:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-30 12:20:57 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-30 12:20:57 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2023-05-30 12:20:58 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-05-30 12:20:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/div_Elements")): Object: 'Object Repository/Page_DEMOQA/div_Elements' is clicked on
+
+2023-05-30 12:20:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/div_Elements' is clicked on
+
+2023-05-30 12:20:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/li_Text Box")): Object: 'Object Repository/Page_DEMOQA/li_Text Box' is clicked on
+
+2023-05-30 12:21:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/li_Text Box' is clicked on
+
+2023-05-30 12:21:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/input_Full Name_userName"), fullName): Text 'Juan Cruz Mouhape' is set on object 'Object Repository/Page_DEMOQA/input_Full Name_userName'
+
+2023-05-30 12:21:01 - [MESSAGE][PASSED] - Text 'Juan Cruz Mouhape' is set on object 'Object Repository/Page_DEMOQA/input_Full Name_userName'
+
+2023-05-30 12:21:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/input_Email_userEmail"), email): Text 'pruebademo@gmail.com' is set on object 'Object Repository/Page_DEMOQA/input_Email_userEmail'
+
+2023-05-30 12:21:02 - [MESSAGE][PASSED] - Text 'pruebademo@gmail.com' is set on object 'Object Repository/Page_DEMOQA/input_Email_userEmail'
+
+2023-05-30 12:21:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/textarea_Current Address_currentAddress"), currentAddress): Text 'Pasaje San Luis 252' is set on object 'Object Repository/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+2023-05-30 12:21:03 - [MESSAGE][PASSED] - Text 'Pasaje San Luis 252' is set on object 'Object Repository/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+2023-05-30 12:21:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/textarea_Permanent Address_permanentAddress"), permanentAddress): Text 'Pasaje San Luis 252' is set on object 'Object Repository/Page_DEMOQA/textarea_Permanent Address_permanentAddress'
+
+2023-05-30 12:21:04 - [MESSAGE][PASSED] - Text 'Pasaje San Luis 252' is set on object 'Object Repository/Page_DEMOQA/textarea_Permanent Address_permanentAddress'
+
+2023-05-30 12:21:04 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/button_Submit"), 4): Scroll to object 'Object Repository/Page_DEMOQA/button_Submit' successfully
+
+2023-05-30 12:21:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/button_Submit' successfully
+
+2023-05-30 12:21:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/button_Submit")): Object: 'Object Repository/Page_DEMOQA/button_Submit' is clicked on
+
+2023-05-30 12:21:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/button_Submit' is clicked on
+
+2023-05-30 12:21:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-30 12:21:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CasosExcel/CasoWebConArchivoCsvExcel" time="15.005" classname="Test Cases/CasosExcel/CasoWebConArchivoCsvExcel" status="PASSED">
+         <system-out><![CDATA[2023-05-30 12:21:05 - [TEST_CASE][PASSED] - Test Cases/CasosExcel/CasoWebConArchivoCsvExcel: Test Cases/CasosExcel/CasoWebConArchivoCsvExcel
+
+2023-05-30 12:21:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-30 12:21:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-30 12:21:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-30 12:21:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-30 12:21:09 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/"): Navigate to 'https://demoqa.com/' successfully
+
+2023-05-30 12:21:13 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+2023-05-30 12:21:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-30 12:21:13 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-30 12:21:13 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2023-05-30 12:21:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-05-30 12:21:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/div_Elements")): Object: 'Object Repository/Page_DEMOQA/div_Elements' is clicked on
+
+2023-05-30 12:21:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/div_Elements' is clicked on
+
+2023-05-30 12:21:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/li_Text Box")): Object: 'Object Repository/Page_DEMOQA/li_Text Box' is clicked on
+
+2023-05-30 12:21:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/li_Text Box' is clicked on
+
+2023-05-30 12:21:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/input_Full Name_userName"), fullName): Text 'Juan Rodriguez' is set on object 'Object Repository/Page_DEMOQA/input_Full Name_userName'
+
+2023-05-30 12:21:17 - [MESSAGE][PASSED] - Text 'Juan Rodriguez' is set on object 'Object Repository/Page_DEMOQA/input_Full Name_userName'
+
+2023-05-30 12:21:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/input_Email_userEmail"), email): Text 'pruebademo2@gmail.com' is set on object 'Object Repository/Page_DEMOQA/input_Email_userEmail'
+
+2023-05-30 12:21:17 - [MESSAGE][PASSED] - Text 'pruebademo2@gmail.com' is set on object 'Object Repository/Page_DEMOQA/input_Email_userEmail'
+
+2023-05-30 12:21:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/textarea_Current Address_currentAddress"), currentAddress): Text 'San Lorenzo 252' is set on object 'Object Repository/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+2023-05-30 12:21:18 - [MESSAGE][PASSED] - Text 'San Lorenzo 252' is set on object 'Object Repository/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+2023-05-30 12:21:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/textarea_Permanent Address_permanentAddress"), permanentAddress): Text 'San Lorenzo 252' is set on object 'Object Repository/Page_DEMOQA/textarea_Permanent Address_permanentAddress'
+
+2023-05-30 12:21:19 - [MESSAGE][PASSED] - Text 'San Lorenzo 252' is set on object 'Object Repository/Page_DEMOQA/textarea_Permanent Address_permanentAddress'
+
+2023-05-30 12:21:19 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/button_Submit"), 4): Scroll to object 'Object Repository/Page_DEMOQA/button_Submit' successfully
+
+2023-05-30 12:21:19 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/button_Submit' successfully
+
+2023-05-30 12:21:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/button_Submit")): Object: 'Object Repository/Page_DEMOQA/button_Submit' is clicked on
+
+2023-05-30 12:21:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/button_Submit' is clicked on
+
+2023-05-30 12:21:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-30 12:21:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CasosExcel/CasoWebConArchivoCsvExcel" time="15.085" classname="Test Cases/CasosExcel/CasoWebConArchivoCsvExcel" status="PASSED">
+         <system-out><![CDATA[2023-05-30 12:21:20 - [TEST_CASE][PASSED] - Test Cases/CasosExcel/CasoWebConArchivoCsvExcel: Test Cases/CasosExcel/CasoWebConArchivoCsvExcel
+
+2023-05-30 12:21:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-30 12:21:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-30 12:21:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-30 12:21:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-30 12:21:22 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/"): Navigate to 'https://demoqa.com/' successfully
+
+2023-05-30 12:21:27 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+2023-05-30 12:21:27 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-30 12:21:27 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-30 12:21:27 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2023-05-30 12:21:27 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-05-30 12:21:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/div_Elements")): Object: 'Object Repository/Page_DEMOQA/div_Elements' is clicked on
+
+2023-05-30 12:21:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/div_Elements' is clicked on
+
+2023-05-30 12:21:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/li_Text Box")): Object: 'Object Repository/Page_DEMOQA/li_Text Box' is clicked on
+
+2023-05-30 12:21:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/li_Text Box' is clicked on
+
+2023-05-30 12:21:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/input_Full Name_userName"), fullName): Text 'Fabio Escudero' is set on object 'Object Repository/Page_DEMOQA/input_Full Name_userName'
+
+2023-05-30 12:21:32 - [MESSAGE][PASSED] - Text 'Fabio Escudero' is set on object 'Object Repository/Page_DEMOQA/input_Full Name_userName'
+
+2023-05-30 12:21:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/input_Email_userEmail"), email): Text 'pruebademo3@gmail.com' is set on object 'Object Repository/Page_DEMOQA/input_Email_userEmail'
+
+2023-05-30 12:21:33 - [MESSAGE][PASSED] - Text 'pruebademo3@gmail.com' is set on object 'Object Repository/Page_DEMOQA/input_Email_userEmail'
+
+2023-05-30 12:21:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/textarea_Current Address_currentAddress"), currentAddress): Text 'Alvear 30' is set on object 'Object Repository/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+2023-05-30 12:21:33 - [MESSAGE][PASSED] - Text 'Alvear 30' is set on object 'Object Repository/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+2023-05-30 12:21:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/textarea_Permanent Address_permanentAddress"), permanentAddress): Text 'Alvear 30' is set on object 'Object Repository/Page_DEMOQA/textarea_Permanent Address_permanentAddress'
+
+2023-05-30 12:21:34 - [MESSAGE][PASSED] - Text 'Alvear 30' is set on object 'Object Repository/Page_DEMOQA/textarea_Permanent Address_permanentAddress'
+
+2023-05-30 12:21:34 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/button_Submit"), 4): Scroll to object 'Object Repository/Page_DEMOQA/button_Submit' successfully
+
+2023-05-30 12:21:34 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/button_Submit' successfully
+
+2023-05-30 12:21:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/button_Submit")): Object: 'Object Repository/Page_DEMOQA/button_Submit' is clicked on
+
+2023-05-30 12:21:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/button_Submit' is clicked on
+
+2023-05-30 12:21:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-30 12:21:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-05-30 12:20:48 - [TEST_SUITE][PASSED] - TestSuiteArchivoCsv: Test Cases/CasosExcel/CasoWebConArchivoCsvExcel]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

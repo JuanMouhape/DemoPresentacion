@@ -1,0 +1,250 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 17,
+        "name": "Dar de alta registro de emppleado",
+        "description": "",
+        "id": "flujo-de-trabajo;dar-de-alta-registro-de-emppleado;;2",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6262684100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que el usuario ingresa al sitio web",
+            "match": {
+              "location": "AgregarEmpleadoStepDefs.que_el_usuario_ingresa_al_sitio_web()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 6187681500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "el usuario ingresa sus credenciales de manera correcta usuario y clave Admin, hUKwJTbofgPU9eVlw/CnDQ\u003d\u003d",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 71
+                },
+                {
+                  "val": "hUKwJTbofgPU9eVlw/CnDQ\u003d\u003d",
+                  "offset": 78
+                }
+              ],
+              "location": "AgregarEmpleadoStepDefs.el_usuario_ingresa_sus_credenciales_de_manera_correcta_y(Object,Object)"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 5938864500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "quiero agregar un nuevo empleado al registro",
+            "match": {
+              "location": "AgregarEmpleadoStepDefs.quiero_agregar_un_nuevo_empleado_al_registro()"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 3327556100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "ingreso los datos Juan, Mouhape y 1111",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Juan",
+                  "offset": 18
+                },
+                {
+                  "val": "Mouhape",
+                  "offset": 24
+                },
+                {
+                  "val": "1111",
+                  "offset": 34
+                }
+              ],
+              "location": "AgregarEmpleadoStepDefs.ingreso_los_datos_del_nuevo_empleado(Object,Object,Object)"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 454955800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "presiono el boton guardar",
+            "match": {
+              "location": "AgregarEmpleadoStepDefs.presiono_el_boton_guardar()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 9020754200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Se verifica que se agrego el empleado de forma correcta",
+            "match": {
+              "location": "AgregarEmpleadoStepDefs.se_verifica_que_se_agrego_el_empleado_de_forma_correcta()"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@Escenario1"
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Dar de alta registro de emppleado",
+        "description": "",
+        "id": "flujo-de-trabajo;dar-de-alta-registro-de-emppleado;;3",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11773394400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que el usuario ingresa al sitio web",
+            "match": {
+              "location": "AgregarEmpleadoStepDefs.que_el_usuario_ingresa_al_sitio_web()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 2336576100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "el usuario ingresa sus credenciales de manera correcta usuario y clave Admin, hUKwJTbofgPU9eVlw/CnDQ\u003d\u003d",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 71
+                },
+                {
+                  "val": "hUKwJTbofgPU9eVlw/CnDQ\u003d\u003d",
+                  "offset": 78
+                }
+              ],
+              "location": "AgregarEmpleadoStepDefs.el_usuario_ingresa_sus_credenciales_de_manera_correcta_y(Object,Object)"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 9964378700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "quiero agregar un nuevo empleado al registro",
+            "match": {
+              "location": "AgregarEmpleadoStepDefs.quiero_agregar_un_nuevo_empleado_al_registro()"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 3681192300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "ingreso los datos Juan, Rodriguez y 2222",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Juan",
+                  "offset": 18
+                },
+                {
+                  "val": "Rodriguez",
+                  "offset": 24
+                },
+                {
+                  "val": "2222",
+                  "offset": 36
+                }
+              ],
+              "location": "AgregarEmpleadoStepDefs.ingreso_los_datos_del_nuevo_empleado(Object,Object,Object)"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 415980700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "presiono el boton guardar",
+            "match": {
+              "location": "AgregarEmpleadoStepDefs.presiono_el_boton_guardar()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 6162331600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Se verifica que se agrego el empleado de forma correcta",
+            "match": {
+              "location": "AgregarEmpleadoStepDefs.se_verifica_que_se_agrego_el_empleado_de_forma_correcta()"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@Escenario1"
+          }
+        ]
+      }
+    ],
+    "name": "Flujo de trabajo",
+    "description": "",
+    "id": "flujo-de-trabajo",
+    "keyword": "Característica",
+    "uri": "C:/Users/admin/git/DemoPresentacion/Include/features/Archivo.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

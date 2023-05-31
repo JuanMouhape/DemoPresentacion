@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuiteGmail,Chrome 113.0.0.0,,,2023-05-30 17:24:02,2023-05-30 17:25:40,"1m - 38,292s",PASSED
+,,,,,,,
+Test Cases/CasoConVariablesSinExcel/CasoWebConVariables,Chrome 113.0.0.0,,,2023-05-30 17:24:02,2023-05-30 17:24:26,"23,583s",PASSED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-30 17:24:03,2023-05-30 17:24:08,"4,953s",PASSED
+"navigateToUrl(""https://demoqa.com/"")",Chrome 113.0.0.0,,,2023-05-30 17:24:08,2023-05-30 17:24:13,"5,089s",PASSED
+maximizeWindow(),Chrome 113.0.0.0,,,2023-05-30 17:24:13,2023-05-30 17:24:13,"0,177s",PASSED
+waitForPageLoad(30),Chrome 113.0.0.0,,,2023-05-30 17:24:13,2023-05-30 17:24:13,"0,269s",PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/div_Elements""))",Chrome 113.0.0.0,,,2023-05-30 17:24:13,2023-05-30 17:24:14,"0,745s",PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/li_Text Box""))",Chrome 113.0.0.0,,,2023-05-30 17:24:14,2023-05-30 17:24:15,"1,382s",PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/input_Full Name_userName""), ""Juan Cruz Mouhape"")",Chrome 113.0.0.0,,,2023-05-30 17:24:15,2023-05-30 17:24:17,"1,833s",PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/input_Email_userEmail""), ""pruebademo@gmail.com"")",Chrome 113.0.0.0,,,2023-05-30 17:24:17,2023-05-30 17:24:18,"0,792s",PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/textarea_Current Address_currentAddress""), ""Pasaje San Luis 252"")",Chrome 113.0.0.0,,,2023-05-30 17:24:18,2023-05-30 17:24:19,"0,752s",PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/textarea_Permanent Address_permanentAddress""), ""Pasaje San Luis 252"")",Chrome 113.0.0.0,,,2023-05-30 17:24:19,2023-05-30 17:24:20,"1,146s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/button_Submit""), 4)",Chrome 113.0.0.0,,,2023-05-30 17:24:20,2023-05-30 17:24:22,"2,500s",PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""))",Chrome 113.0.0.0,,,2023-05-30 17:24:22,2023-05-30 17:24:23,"0,396s",PASSED
+"retornoFullName = getText(findTestObject(""Object Repository/Page_DEMOQA/p_NameJuan Cruz Mouhape""))",Chrome 113.0.0.0,,,2023-05-30 17:24:23,2023-05-30 17:24:23,"0,498s",PASSED
+"fullNameLoad = retornoFullName.split("":"")",Chrome 113.0.0.0,,,2023-05-30 17:24:23,2023-05-30 17:24:23,"0,005s",PASSED
+"verifyMatch(fullName, fullNameLoad[1], false)",Chrome 113.0.0.0,,,2023-05-30 17:24:23,2023-05-30 17:24:23,"0,040s",PASSED
+"retornoEmail = getText(findTestObject(""Object Repository/Page_DEMOQA/p_Emailpruebademogmail.com""))",Chrome 113.0.0.0,,,2023-05-30 17:24:23,2023-05-30 17:24:24,"0,360s",PASSED
+"emailLoad = retornoEmail.split("":"")",Chrome 113.0.0.0,,,2023-05-30 17:24:24,2023-05-30 17:24:24,"0,000s",PASSED
+"verifyMatch(email, emailLoad[1], false)",Chrome 113.0.0.0,,,2023-05-30 17:24:24,2023-05-30 17:24:24,"0,003s",PASSED
+"retornoAddress = getText(findTestObject(""Object Repository/Page_DEMOQA/p_Current Address Pasaje San Luis 252""))",Chrome 113.0.0.0,,,2023-05-30 17:24:24,2023-05-30 17:24:24,"0,376s",PASSED
+"addressLoad = retornoAddress.split("":"")",Chrome 113.0.0.0,,,2023-05-30 17:24:24,2023-05-30 17:24:24,"0,001s",PASSED
+"verifyMatch(currentAddress, addressLoad[1], false)",Chrome 113.0.0.0,,,2023-05-30 17:24:24,2023-05-30 17:24:24,"0,003s",PASSED
+"retornoAddressPermanent = getText(findTestObject(""Object Repository/Page_DEMOQA/p_Permananet Address Pasaje San Luis 252""))",Chrome 113.0.0.0,,,2023-05-30 17:24:24,2023-05-30 17:24:24,"0,362s",PASSED
+"addressPermanentLoad = retornoAddressPermanent.split("":"")",Chrome 113.0.0.0,,,2023-05-30 17:24:24,2023-05-30 17:24:24,"0,001s",PASSED
+"verifyMatch(permanentAddress, addressPermanentLoad[1], false)",Chrome 113.0.0.0,,,2023-05-30 17:24:24,2023-05-30 17:24:24,"0,003s",PASSED
+closeBrowser(),Chrome 113.0.0.0,,,2023-05-30 17:24:24,2023-05-30 17:24:26,"1,213s",PASSED
+,,,,,,,
+Test Cases/Cucumber/CasoConFeature/LlamadoAFeatureConTags,Chrome 113.0.0.0,,,2023-05-30 17:24:26,2023-05-30 17:25:40,"1m - 14,026s",PASSED
+"runFeatureFileWithTags(""Include/features/Archivo.feature"", ""@Escenario1"")",Chrome 113.0.0.0,,,2023-05-30 17:24:26,2023-05-30 17:25:40,"1m - 13,706s",PASSED

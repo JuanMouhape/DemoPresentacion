@@ -1,3 +1,54 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Gmail/input_Se han producido demasiados intentos _90e8f8",
+      "brokenLocator": "//input[@name\u003d\u0027Passwd\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Gmail/input_Se han producido demasiados intentos _90e8f8_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Gmail/span_Siguiente",
+      "brokenLocator": "//div[@id\u003d\u0027identifierNext\u0027]/div/button/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*/text()[normalize-space(.)\u003d\u0027Siguiente\u0027]/parent::*",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Gmail/span_Siguiente_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Inicia sesin Cuentas de Google/input_Se han producido demasiados intentos _90e8f8",
+      "brokenLocator": "//input[@name\u003d\u0027Passwd\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Inicia sesin Cuentas de Google/input_Se han producido demasiados intentos _90e8f8_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Inicia sesin Cuentas de Google/span_Siguiente",
+      "brokenLocator": "//div[@id\u003d\u0027identifierNext\u0027]/div/button/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*/text()[normalize-space(.)\u003d\u0027Siguiente\u0027]/parent::*",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Inicia sesin Cuentas de Google/span_Siguiente_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_LoadFile/Page_FileMail/Page_Enviar Archivos Grandes Gratis - Trans_3e010f/button_Enviar_1",
+      "brokenLocator": "//button[@id\u003d\u0027btnStartTransfer\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Preparando transferencia\u0027])[1]/preceding::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_LoadFile/Page_FileMail/Page_Enviar Archivos Grandes Gratis - Trans_3e010f/button_Enviar_1_neighbor.png"
+    }
+  ]
 }

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LlamadoAFeatureConTags</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>635f40f7-372f-4c1b-a5df-e9b327adf99b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>443dadbd-6a63-42f1-8bbe-ce3e4d6eebf9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'@Escenario1'</defaultValue>
+      <description></description>
+      <id>443dadbd-6a63-42f1-8bbe-ce3e4d6eebf9</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

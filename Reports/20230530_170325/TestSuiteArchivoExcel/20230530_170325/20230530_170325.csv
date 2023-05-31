@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuiteArchivoExcel,Chrome 113.0.0.0,,,2023-05-30 17:03:29,2023-05-30 17:04:44,"1m - 14,481s",PASSED
+,,,,,,,
+Test Cases/CasosExcel/CasoWebConArchivoCsvExcel,Chrome 113.0.0.0,,,2023-05-30 17:03:30,2023-05-30 17:04:11,"41,506s",PASSED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-30 17:03:30,2023-05-30 17:03:47,"16,356s",PASSED
+"navigateToUrl(""https://demoqa.com/"")",Chrome 113.0.0.0,,,2023-05-30 17:03:47,2023-05-30 17:03:52,"5,479s",PASSED
+maximizeWindow(),Chrome 113.0.0.0,,,2023-05-30 17:03:52,2023-05-30 17:03:52,"0,352s",PASSED
+waitForPageLoad(30),Chrome 113.0.0.0,,,2023-05-30 17:03:52,2023-05-30 17:03:54,"1,591s",PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/div_Elements""))",Chrome 113.0.0.0,,,2023-05-30 17:03:54,2023-05-30 17:04:01,"7,167s",PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/li_Text Box""))",Chrome 113.0.0.0,,,2023-05-30 17:04:01,2023-05-30 17:04:03,"2,220s",PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/input_Full Name_userName""), fullName)",Chrome 113.0.0.0,,,2023-05-30 17:04:03,2023-05-30 17:04:04,"0,949s",PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/input_Email_userEmail""), email)",Chrome 113.0.0.0,,,2023-05-30 17:04:04,2023-05-30 17:04:05,"0,905s",PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/textarea_Current Address_currentAddress""), currentAddress)",Chrome 113.0.0.0,,,2023-05-30 17:04:05,2023-05-30 17:04:06,"0,854s",PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/textarea_Permanent Address_permanentAddress""), permanentAddress)",Chrome 113.0.0.0,,,2023-05-30 17:04:06,2023-05-30 17:04:07,"0,912s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/button_Submit""), 4)",Chrome 113.0.0.0,,,2023-05-30 17:04:07,2023-05-30 17:04:08,"0,527s",PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""))",Chrome 113.0.0.0,,,2023-05-30 17:04:08,2023-05-30 17:04:08,"0,515s",PASSED
+closeBrowser(),Chrome 113.0.0.0,,,2023-05-30 17:04:08,2023-05-30 17:04:11,"3,089s",PASSED
+,,,,,,,
+Test Cases/CasosExcel/CasoWebConArchivoCsvExcel,Chrome 113.0.0.0,,,2023-05-30 17:04:11,2023-05-30 17:04:27,"16,044s",PASSED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-30 17:04:11,2023-05-30 17:04:13,"1,758s",PASSED
+"navigateToUrl(""https://demoqa.com/"")",Chrome 113.0.0.0,,,2023-05-30 17:04:13,2023-05-30 17:04:20,"6,586s",PASSED
+maximizeWindow(),Chrome 113.0.0.0,,,2023-05-30 17:04:20,2023-05-30 17:04:20,"0,166s",PASSED
+waitForPageLoad(30),Chrome 113.0.0.0,,,2023-05-30 17:04:20,2023-05-30 17:04:20,"0,034s",PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/div_Elements""))",Chrome 113.0.0.0,,,2023-05-30 17:04:20,2023-05-30 17:04:21,"0,908s",PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/li_Text Box""))",Chrome 113.0.0.0,,,2023-05-30 17:04:21,2023-05-30 17:04:22,"1,212s",PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/input_Full Name_userName""), fullName)",Chrome 113.0.0.0,,,2023-05-30 17:04:22,2023-05-30 17:04:23,"1,512s",PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/input_Email_userEmail""), email)",Chrome 113.0.0.0,,,2023-05-30 17:04:23,2023-05-30 17:04:24,"0,766s",PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/textarea_Current Address_currentAddress""), currentAddress)",Chrome 113.0.0.0,,,2023-05-30 17:04:24,2023-05-30 17:04:25,"0,752s",PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/textarea_Permanent Address_permanentAddress""), permanentAddress)",Chrome 113.0.0.0,,,2023-05-30 17:04:25,2023-05-30 17:04:26,"0,762s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/button_Submit""), 4)",Chrome 113.0.0.0,,,2023-05-30 17:04:26,2023-05-30 17:04:26,"0,380s",PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""))",Chrome 113.0.0.0,,,2023-05-30 17:04:26,2023-05-30 17:04:27,"0,404s",PASSED
+closeBrowser(),Chrome 113.0.0.0,,,2023-05-30 17:04:27,2023-05-30 17:04:27,"0,786s",PASSED
+,,,,,,,
+Test Cases/CasosExcel/CasoWebConArchivoCsvExcel,Chrome 113.0.0.0,,,2023-05-30 17:04:27,2023-05-30 17:04:44,"16,180s",PASSED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-30 17:04:27,2023-05-30 17:04:29,"1,764s",PASSED
+"navigateToUrl(""https://demoqa.com/"")",Chrome 113.0.0.0,,,2023-05-30 17:04:29,2023-05-30 17:04:35,"5,707s",PASSED
+maximizeWindow(),Chrome 113.0.0.0,,,2023-05-30 17:04:35,2023-05-30 17:04:35,"0,143s",PASSED
+waitForPageLoad(30),Chrome 113.0.0.0,,,2023-05-30 17:04:35,2023-05-30 17:04:35,"0,019s",PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/div_Elements""))",Chrome 113.0.0.0,,,2023-05-30 17:04:35,2023-05-30 17:04:36,"0,816s",PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/li_Text Box""))",Chrome 113.0.0.0,,,2023-05-30 17:04:36,2023-05-30 17:04:37,"1,200s",PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/input_Full Name_userName""), fullName)",Chrome 113.0.0.0,,,2023-05-30 17:04:37,2023-05-30 17:04:39,"1,664s",PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/input_Email_userEmail""), email)",Chrome 113.0.0.0,,,2023-05-30 17:04:39,2023-05-30 17:04:39,"0,746s",PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/textarea_Current Address_currentAddress""), currentAddress)",Chrome 113.0.0.0,,,2023-05-30 17:04:39,2023-05-30 17:04:41,"1,384s",PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/textarea_Permanent Address_permanentAddress""), permanentAddress)",Chrome 113.0.0.0,,,2023-05-30 17:04:41,2023-05-30 17:04:42,"1,197s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/button_Submit""), 4)",Chrome 113.0.0.0,,,2023-05-30 17:04:42,2023-05-30 17:04:42,"0,377s",PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""))",Chrome 113.0.0.0,,,2023-05-30 17:04:42,2023-05-30 17:04:43,"0,405s",PASSED
+closeBrowser(),Chrome 113.0.0.0,,,2023-05-30 17:04:43,2023-05-30 17:04:44,"0,744s",PASSED

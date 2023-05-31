@@ -1,0 +1,264 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "042e43f1-1cb8-435e-90d2-383d0692d8b1",
+        "line": 17,
+        "name": "Dar de alta registro de emppleado",
+        "description": "",
+        "id": "flujo-de-trabajo;dar-de-alta-registro-de-emppleado;;2",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5731139200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que el usuario ingresa al sitio web",
+            "match": {
+              "location": "AgregarEmpleadoStepDefs.que_el_usuario_ingresa_al_sitio_web()"
+            },
+            "keyword": "Dado ",
+            "BDD_STEP_UUID": "c86d15e7-4569-4cb4-a965-fc5ac355b7f5"
+          },
+          {
+            "result": {
+              "duration": 2403658400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "el usuario ingresa sus credenciales de manera correcta usuario y clave Admin, hUKwJTbofgPU9eVlw/CnDQ\u003d\u003d",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 71
+                },
+                {
+                  "val": "hUKwJTbofgPU9eVlw/CnDQ\u003d\u003d",
+                  "offset": 78
+                }
+              ],
+              "location": "AgregarEmpleadoStepDefs.el_usuario_ingresa_sus_credenciales_de_manera_correcta_y(Object,Object)"
+            },
+            "keyword": "Y ",
+            "BDD_STEP_UUID": "6a1680c2-79ac-486d-abdb-5ab3b648c3ad"
+          },
+          {
+            "result": {
+              "duration": 7268670600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "quiero agregar un nuevo empleado al registro",
+            "match": {
+              "location": "AgregarEmpleadoStepDefs.quiero_agregar_un_nuevo_empleado_al_registro()"
+            },
+            "keyword": "Cuando ",
+            "BDD_STEP_UUID": "756fa968-63ae-4b1c-8efa-77045a3b9d80"
+          },
+          {
+            "result": {
+              "duration": 4571810200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "ingreso los datos Juan, Mouhape y 1111",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Juan",
+                  "offset": 18
+                },
+                {
+                  "val": "Mouhape",
+                  "offset": 24
+                },
+                {
+                  "val": "1111",
+                  "offset": 34
+                }
+              ],
+              "location": "AgregarEmpleadoStepDefs.ingreso_los_datos_del_nuevo_empleado(Object,Object,Object)"
+            },
+            "keyword": "Y ",
+            "BDD_STEP_UUID": "9b2890b2-8bfa-47c0-9014-6abba940cda8"
+          },
+          {
+            "result": {
+              "duration": 506690700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "presiono el boton guardar",
+            "match": {
+              "location": "AgregarEmpleadoStepDefs.presiono_el_boton_guardar()"
+            },
+            "keyword": "Y ",
+            "BDD_STEP_UUID": "536f4659-10f1-4372-83f3-897cab23d261"
+          },
+          {
+            "result": {
+              "duration": 6291602600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Se verifica que se agrego el empleado de forma correcta",
+            "match": {
+              "location": "AgregarEmpleadoStepDefs.se_verifica_que_se_agrego_el_empleado_de_forma_correcta()"
+            },
+            "keyword": "Entonces ",
+            "BDD_STEP_UUID": "e5be6b2c-2309-4275-8b72-ed9628b23135"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@Escenario1"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "bfac8dda-0e82-49d7-bf40-dc5f4f6fce89",
+        "line": 18,
+        "name": "Dar de alta registro de emppleado",
+        "description": "",
+        "id": "flujo-de-trabajo;dar-de-alta-registro-de-emppleado;;3",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6178854401,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que el usuario ingresa al sitio web",
+            "match": {
+              "location": "AgregarEmpleadoStepDefs.que_el_usuario_ingresa_al_sitio_web()"
+            },
+            "keyword": "Dado ",
+            "BDD_STEP_UUID": "a7afcbd1-c8ca-4b4f-abd4-35954c28b145"
+          },
+          {
+            "result": {
+              "duration": 3667661200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "el usuario ingresa sus credenciales de manera correcta usuario y clave Admin, hUKwJTbofgPU9eVlw/CnDQ\u003d\u003d",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 71
+                },
+                {
+                  "val": "hUKwJTbofgPU9eVlw/CnDQ\u003d\u003d",
+                  "offset": 78
+                }
+              ],
+              "location": "AgregarEmpleadoStepDefs.el_usuario_ingresa_sus_credenciales_de_manera_correcta_y(Object,Object)"
+            },
+            "keyword": "Y ",
+            "BDD_STEP_UUID": "d14dda9f-92bb-4f81-bd84-65541e383264"
+          },
+          {
+            "result": {
+              "duration": 6342337500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "quiero agregar un nuevo empleado al registro",
+            "match": {
+              "location": "AgregarEmpleadoStepDefs.quiero_agregar_un_nuevo_empleado_al_registro()"
+            },
+            "keyword": "Cuando ",
+            "BDD_STEP_UUID": "a875977f-ed02-4651-aa7a-b1c6ba2e56f2"
+          },
+          {
+            "result": {
+              "duration": 4104353299,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "ingreso los datos Juan, Rodriguez y 2222",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Juan",
+                  "offset": 18
+                },
+                {
+                  "val": "Rodriguez",
+                  "offset": 24
+                },
+                {
+                  "val": "2222",
+                  "offset": 36
+                }
+              ],
+              "location": "AgregarEmpleadoStepDefs.ingreso_los_datos_del_nuevo_empleado(Object,Object,Object)"
+            },
+            "keyword": "Y ",
+            "BDD_STEP_UUID": "3404a4d1-f7ad-4f0c-9efd-e5b8834973ff"
+          },
+          {
+            "result": {
+              "duration": 412155200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "presiono el boton guardar",
+            "match": {
+              "location": "AgregarEmpleadoStepDefs.presiono_el_boton_guardar()"
+            },
+            "keyword": "Y ",
+            "BDD_STEP_UUID": "fb664234-d2ea-4387-9aa1-8cce9d011781"
+          },
+          {
+            "result": {
+              "duration": 7460625100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Se verifica que se agrego el empleado de forma correcta",
+            "match": {
+              "location": "AgregarEmpleadoStepDefs.se_verifica_que_se_agrego_el_empleado_de_forma_correcta()"
+            },
+            "keyword": "Entonces ",
+            "BDD_STEP_UUID": "a23c7ec5-9d2a-4d34-b7b4-836e50744d1e"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@Escenario1"
+          }
+        ]
+      }
+    ],
+    "name": "Flujo de trabajo",
+    "description": "",
+    "id": "flujo-de-trabajo",
+    "keyword": "Característica",
+    "uri": "C:/Users/admin/git/DemoPresentacion/Include/features/Archivo.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

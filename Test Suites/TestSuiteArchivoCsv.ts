@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TestSuiteArchivoCsv</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>08b60ab2-cd9d-473c-a4dc-771e0330ebe0</testSuiteGuid>
+   <testCaseLink>
+      <guid>07acceb5-ae40-4b21-a860-6fc3a3826947</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CasosExcel/CasoWebConArchivoCsvExcel</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>2f3d73bb-8af0-4627-9dc9-216b93be40cf</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/ArchivoCSV</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>2f3d73bb-8af0-4627-9dc9-216b93be40cf</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>fullName</value>
+         <variableId>1822bc10-8b26-40cf-82bb-ec08c276055f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2f3d73bb-8af0-4627-9dc9-216b93be40cf</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>d4eead9b-3985-4bbf-b99c-0cc490cbc8c1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2f3d73bb-8af0-4627-9dc9-216b93be40cf</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>currentAddress</value>
+         <variableId>6f4a8790-3973-4503-a88c-8712661eb49d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2f3d73bb-8af0-4627-9dc9-216b93be40cf</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>addressPermanent</value>
+         <variableId>93d15961-8e3a-4027-88f2-95d67fd338ba</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

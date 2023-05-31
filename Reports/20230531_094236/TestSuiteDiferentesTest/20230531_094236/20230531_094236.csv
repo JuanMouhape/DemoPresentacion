@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuiteDiferentesTest,Chrome 113.0.0.0,,,2023-05-31 09:42:48,2023-05-31 09:43:19,"31,188s",FAILED
+,,,,,,,
+Test Cases/CasoDesktop/CasoDesktop,Chrome 113.0.0.0,,,2023-05-31 09:42:57,2023-05-31 09:42:59,"2,077s",FAILED
+"startApplicationWithTitle(""C:\Program Files\Windows NT\Accessories\wordpad.exe"", ""PruebaKatalon"")",Chrome 113.0.0.0,,,2023-05-31 09:42:57,2023-05-31 09:42:59,"2,050s",FAILED
+,,,,,,,
+Test Cases/CasoConVariablesSinExcel/CasoWebConVariables,Chrome 113.0.0.0,,,2023-05-31 09:42:59,2023-05-31 09:43:19,"19,644s",PASSED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-31 09:43:00,2023-05-31 09:43:02,"2,431s",PASSED
+"navigateToUrl(""https://demoqa.com/"")",Chrome 113.0.0.0,,,2023-05-31 09:43:02,2023-05-31 09:43:08,"5,802s",PASSED
+maximizeWindow(),Chrome 113.0.0.0,,,2023-05-31 09:43:08,2023-05-31 09:43:08,"0,214s",PASSED
+waitForPageLoad(30),Chrome 113.0.0.0,,,2023-05-31 09:43:08,2023-05-31 09:43:09,"0,339s",PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/div_Elements""))",Chrome 113.0.0.0,,,2023-05-31 09:43:09,2023-05-31 09:43:09,"0,762s",PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/li_Text Box""))",Chrome 113.0.0.0,,,2023-05-31 09:43:09,2023-05-31 09:43:11,"1,439s",PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/input_Full Name_userName""), ""Juan Cruz Mouhape"")",Chrome 113.0.0.0,,,2023-05-31 09:43:11,2023-05-31 09:43:12,"1,489s",PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/input_Email_userEmail""), ""pruebademo@gmail.com"")",Chrome 113.0.0.0,,,2023-05-31 09:43:12,2023-05-31 09:43:13,"0,905s",PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/textarea_Current Address_currentAddress""), ""Pasaje San Luis 252"")",Chrome 113.0.0.0,,,2023-05-31 09:43:13,2023-05-31 09:43:14,"0,870s",PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/textarea_Permanent Address_permanentAddress""), ""Pasaje San Luis 252"")",Chrome 113.0.0.0,,,2023-05-31 09:43:14,2023-05-31 09:43:15,"0,885s",PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/button_Submit""), 4)",Chrome 113.0.0.0,,,2023-05-31 09:43:15,2023-05-31 09:43:15,"0,466s",PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""))",Chrome 113.0.0.0,,,2023-05-31 09:43:15,2023-05-31 09:43:16,"0,538s",PASSED
+"retornoFullName = getText(findTestObject(""Object Repository/Page_DEMOQA/p_NameJuan Cruz Mouhape""))",Chrome 113.0.0.0,,,2023-05-31 09:43:16,2023-05-31 09:43:17,"0,522s",PASSED
+"fullNameLoad = retornoFullName.split("":"")",Chrome 113.0.0.0,,,2023-05-31 09:43:17,2023-05-31 09:43:17,"0,004s",PASSED
+"verifyMatch(fullName, fullNameLoad[1], false)",Chrome 113.0.0.0,,,2023-05-31 09:43:17,2023-05-31 09:43:17,"0,051s",PASSED
+"retornoEmail = getText(findTestObject(""Object Repository/Page_DEMOQA/p_Emailpruebademogmail.com""))",Chrome 113.0.0.0,,,2023-05-31 09:43:17,2023-05-31 09:43:17,"0,459s",PASSED
+"emailLoad = retornoEmail.split("":"")",Chrome 113.0.0.0,,,2023-05-31 09:43:17,2023-05-31 09:43:17,"0,001s",PASSED
+"verifyMatch(email, emailLoad[1], false)",Chrome 113.0.0.0,,,2023-05-31 09:43:17,2023-05-31 09:43:17,"0,004s",PASSED
+"retornoAddress = getText(findTestObject(""Object Repository/Page_DEMOQA/p_Current Address Pasaje San Luis 252""))",Chrome 113.0.0.0,,,2023-05-31 09:43:17,2023-05-31 09:43:18,"0,454s",PASSED
+"addressLoad = retornoAddress.split("":"")",Chrome 113.0.0.0,,,2023-05-31 09:43:18,2023-05-31 09:43:18,"0,001s",PASSED
+"verifyMatch(currentAddress, addressLoad[1], false)",Chrome 113.0.0.0,,,2023-05-31 09:43:18,2023-05-31 09:43:18,"0,005s",PASSED
+"retornoAddressPermanent = getText(findTestObject(""Object Repository/Page_DEMOQA/p_Permananet Address Pasaje San Luis 252""))",Chrome 113.0.0.0,,,2023-05-31 09:43:18,2023-05-31 09:43:18,"0,495s",PASSED
+"addressPermanentLoad = retornoAddressPermanent.split("":"")",Chrome 113.0.0.0,,,2023-05-31 09:43:18,2023-05-31 09:43:18,"0,001s",PASSED
+"verifyMatch(permanentAddress, addressPermanentLoad[1], false)",Chrome 113.0.0.0,,,2023-05-31 09:43:18,2023-05-31 09:43:18,"0,006s",PASSED
+closeBrowser(),Chrome 113.0.0.0,,,2023-05-31 09:43:18,2023-05-31 09:43:19,"0,789s",PASSED

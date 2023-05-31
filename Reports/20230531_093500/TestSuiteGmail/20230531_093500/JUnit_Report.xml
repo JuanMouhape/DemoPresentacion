@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuiteGmail" time="109.754" tests="4" failures="0" errors="0">
+   <testsuite name="TestSuiteGmail" tests="4" failures="0" errors="0" time="109.754" skipped="0" timestamp="2023-05-31 09:35:04" hostname="admin - 192.168.0.8" id="Test Suites/TestSuiteGmail">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\admin\\git\\DemoPresentacion\\Reports\\20230531_093500\\TestSuiteGmail\\20230531_093500"/>
+         <property name="logFiles" value="C:\\Users\\admin\\git\\DemoPresentacion\\Reports\\20230531_093500\\TestSuiteGmail\\20230531_093500\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="admin - 192.168.0.8"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 113.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.8"/>
+         <property name="sessionId" value="7617490d2ee53b97b357221d9b771a0c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/CasoConVariablesSinExcel/CasoWebConVariables" time="19.547" classname="Test Cases/CasoConVariablesSinExcel/CasoWebConVariables" status="PASSED">
+         <system-out><![CDATA[2023-05-31 09:35:04 - [TEST_CASE][PASSED] - Test Cases/CasoConVariablesSinExcel/CasoWebConVariables: Test Cases/CasoConVariablesSinExcel/CasoWebConVariables
+
+2023-05-31 09:35:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-31 09:35:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-31 09:35:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-31 09:35:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-31 09:35:08 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/"): Navigate to 'https://demoqa.com/' successfully
+
+2023-05-31 09:35:13 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+2023-05-31 09:35:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-31 09:35:14 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-31 09:35:14 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2023-05-31 09:35:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-05-31 09:35:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/div_Elements")): Object: 'Object Repository/Page_DEMOQA/div_Elements' is clicked on
+
+2023-05-31 09:35:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/div_Elements' is clicked on
+
+2023-05-31 09:35:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/li_Text Box")): Object: 'Object Repository/Page_DEMOQA/li_Text Box' is clicked on
+
+2023-05-31 09:35:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/li_Text Box' is clicked on
+
+2023-05-31 09:35:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/input_Full Name_userName"), "Juan Cruz Mouhape"): Text 'Juan Cruz Mouhape' is set on object 'Object Repository/Page_DEMOQA/input_Full Name_userName'
+
+2023-05-31 09:35:18 - [MESSAGE][PASSED] - Text 'Juan Cruz Mouhape' is set on object 'Object Repository/Page_DEMOQA/input_Full Name_userName'
+
+2023-05-31 09:35:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/input_Email_userEmail"), "pruebademo@gmail.com"): Text 'pruebademo@gmail.com' is set on object 'Object Repository/Page_DEMOQA/input_Email_userEmail'
+
+2023-05-31 09:35:18 - [MESSAGE][PASSED] - Text 'pruebademo@gmail.com' is set on object 'Object Repository/Page_DEMOQA/input_Email_userEmail'
+
+2023-05-31 09:35:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/textarea_Current Address_currentAddress"), "Pasaje San Luis 252"): Text 'Pasaje San Luis 252' is set on object 'Object Repository/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+2023-05-31 09:35:19 - [MESSAGE][PASSED] - Text 'Pasaje San Luis 252' is set on object 'Object Repository/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+2023-05-31 09:35:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/textarea_Permanent Address_permanentAddress"), "Pasaje San Luis 252"): Text 'Pasaje San Luis 252' is set on object 'Object Repository/Page_DEMOQA/textarea_Permanent Address_permanentAddress'
+
+2023-05-31 09:35:20 - [MESSAGE][PASSED] - Text 'Pasaje San Luis 252' is set on object 'Object Repository/Page_DEMOQA/textarea_Permanent Address_permanentAddress'
+
+2023-05-31 09:35:20 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/button_Submit"), 4): Scroll to object 'Object Repository/Page_DEMOQA/button_Submit' successfully
+
+2023-05-31 09:35:21 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/button_Submit' successfully
+
+2023-05-31 09:35:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/button_Submit")): Object: 'Object Repository/Page_DEMOQA/button_Submit' is clicked on
+
+2023-05-31 09:35:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/button_Submit' is clicked on
+
+2023-05-31 09:35:21 - [TEST_STEP][PASSED] - retornoFullName = getText(findTestObject("Object Repository/Page_DEMOQA/p_NameJuan Cruz Mouhape")): Text of object 'Object Repository/Page_DEMOQA/p_NameJuan Cruz Mouhape' is: 'Name:Juan Cruz Mouhape'
+
+2023-05-31 09:35:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_DEMOQA/p_NameJuan Cruz Mouhape' is: 'Name:Juan Cruz Mouhape'
+
+2023-05-31 09:35:22 - [TEST_STEP][PASSED] - fullNameLoad = retornoFullName.split(":"): null
+
+2023-05-31 09:35:22 - [TEST_STEP][PASSED] - verifyMatch(fullName, fullNameLoad[1], false): Actual text 'Juan Cruz Mouhape' and expected text 'Juan Cruz Mouhape' are matched 
+
+2023-05-31 09:35:22 - [MESSAGE][PASSED] - Actual text 'Juan Cruz Mouhape' and expected text 'Juan Cruz Mouhape' are matched 
+
+2023-05-31 09:35:22 - [TEST_STEP][PASSED] - retornoEmail = getText(findTestObject("Object Repository/Page_DEMOQA/p_Emailpruebademogmail.com")): Text of object 'Object Repository/Page_DEMOQA/p_Emailpruebademogmail.com' is: 'Email:pruebademo@gmail.com'
+
+2023-05-31 09:35:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_DEMOQA/p_Emailpruebademogmail.com' is: 'Email:pruebademo@gmail.com'
+
+2023-05-31 09:35:22 - [TEST_STEP][PASSED] - emailLoad = retornoEmail.split(":"): null
+
+2023-05-31 09:35:22 - [TEST_STEP][PASSED] - verifyMatch(email, emailLoad[1], false): Actual text 'pruebademo@gmail.com' and expected text 'pruebademo@gmail.com' are matched 
+
+2023-05-31 09:35:22 - [MESSAGE][PASSED] - Actual text 'pruebademo@gmail.com' and expected text 'pruebademo@gmail.com' are matched 
+
+2023-05-31 09:35:22 - [TEST_STEP][PASSED] - retornoAddress = getText(findTestObject("Object Repository/Page_DEMOQA/p_Current Address Pasaje San Luis 252")): Text of object 'Object Repository/Page_DEMOQA/p_Current Address Pasaje San Luis 252' is: 'Current Address :Pasaje San Luis 252'
+
+2023-05-31 09:35:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_DEMOQA/p_Current Address Pasaje San Luis 252' is: 'Current Address :Pasaje San Luis 252'
+
+2023-05-31 09:35:23 - [TEST_STEP][PASSED] - addressLoad = retornoAddress.split(":"): null
+
+2023-05-31 09:35:23 - [TEST_STEP][PASSED] - verifyMatch(currentAddress, addressLoad[1], false): Actual text 'Pasaje San Luis 252' and expected text 'Pasaje San Luis 252' are matched 
+
+2023-05-31 09:35:23 - [MESSAGE][PASSED] - Actual text 'Pasaje San Luis 252' and expected text 'Pasaje San Luis 252' are matched 
+
+2023-05-31 09:35:23 - [TEST_STEP][PASSED] - retornoAddressPermanent = getText(findTestObject("Object Repository/Page_DEMOQA/p_Permananet Address Pasaje San Luis 252")): Text of object 'Object Repository/Page_DEMOQA/p_Permananet Address Pasaje San Luis 252' is: 'Permananet Address :Pasaje San Luis 252'
+
+2023-05-31 09:35:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_DEMOQA/p_Permananet Address Pasaje San Luis 252' is: 'Permananet Address :Pasaje San Luis 252'
+
+2023-05-31 09:35:23 - [TEST_STEP][PASSED] - addressPermanentLoad = retornoAddressPermanent.split(":"): null
+
+2023-05-31 09:35:23 - [TEST_STEP][PASSED] - verifyMatch(permanentAddress, addressPermanentLoad[1], false): Actual text 'Pasaje San Luis 252' and expected text 'Pasaje San Luis 252' are matched 
+
+2023-05-31 09:35:23 - [MESSAGE][PASSED] - Actual text 'Pasaje San Luis 252' and expected text 'Pasaje San Luis 252' are matched 
+
+2023-05-31 09:35:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-31 09:35:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Cucumber/CasoConFeature/LlamadoAFeatureConTags" time="56.547" classname="Test Cases/Cucumber/CasoConFeature/LlamadoAFeatureConTags" status="PASSED">
+         <system-out><![CDATA[2023-05-31 09:35:24 - [TEST_CASE][PASSED] - Test Cases/Cucumber/CasoConFeature/LlamadoAFeatureConTags: Test Cases/Cucumber/CasoConFeature/LlamadoAFeatureConTags
+
+2023-05-31 09:35:24 - [TEST_STEP][PASSED] - runFeatureFileWithTags("Include/features/Archivo.feature", "@Escenario1"): Feature file: 'Include/features/Archivo.feature' was passed
+
+2023-05-31 09:35:24 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Archivo.feature' and extract report to folder: 'C:\Users\admin\git\DemoPresentacion\Reports\20230531_093500\TestSuiteGmail\20230531_093500/cucumber_report/1685536524717'...
+
+2023-05-31 09:35:25 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Dar de alta registro de emppleado: SCENARIO Dar de alta registro de emppleado
+
+2023-05-31 09:35:25 - [TEST_STEP][PASSED] - que el usuario ingresa al sitio web: que el usuario ingresa al sitio web
+
+2023-05-31 09:35:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-31 09:35:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-31 09:35:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-31 09:35:31 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-31 09:35:31 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-05-31 09:35:31 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-31 09:35:31 - [MESSAGE][PASSED] - que el usuario ingresa al sitio web
+
+2023-05-31 09:35:31 - [TEST_STEP][PASSED] - el usuario ingresa sus credenciales de manera correcta usuario y clave Admin, hUKwJTbofgPU9eVlw/CnDQ==: el usuario ingresa sus credenciales de manera correcta usuario y clave Admin, hUKwJTbofgPU9eVlw/CnDQ==
+
+2023-05-31 09:35:32 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_Nombre de usuario'
+
+2023-05-31 09:35:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_Password'
+
+2023-05-31 09:35:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/button_Ingresar_Login' is clicked on
+
+2023-05-31 09:35:33 - [MESSAGE][PASSED] - el usuario ingresa sus credenciales de manera correcta usuario y clave Admin, hUKwJTbofgPU9eVlw/CnDQ==
+
+2023-05-31 09:35:33 - [TEST_STEP][PASSED] - quiero agregar un nuevo empleado al registro: quiero agregar un nuevo empleado al registro
+
+2023-05-31 09:35:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/button_Modulo_Informacion_Personal' is clicked on
+
+2023-05-31 09:35:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/button_Agregar_Empleado' is clicked on
+
+2023-05-31 09:35:41 - [MESSAGE][PASSED] - quiero agregar un nuevo empleado al registro
+
+2023-05-31 09:35:41 - [TEST_STEP][PASSED] - ingreso los datos Juan, Mouhape y 1111: ingreso los datos Juan, Mouhape y 1111
+
+2023-05-31 09:35:43 - [MESSAGE][PASSED] - Text 'Juan' is set on object 'Object Repository/Page_OrangeHRM/input_Full_Name_firstName'
+
+2023-05-31 09:35:44 - [MESSAGE][PASSED] - Text 'Mouhape' is set on object 'Object Repository/Page_OrangeHRM/input_Full_Name_lastName'
+
+2023-05-31 09:35:45 - [MESSAGE][PASSED] - Text '1111' is set on object 'Object Repository/Page_OrangeHRM/input_Id del empleado'
+
+2023-05-31 09:35:45 - [MESSAGE][PASSED] - ingreso los datos Juan, Mouhape y 1111
+
+2023-05-31 09:35:45 - [TEST_STEP][PASSED] - presiono el boton guardar: presiono el boton guardar
+
+2023-05-31 09:35:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/button_Guardar_Informacion_Empleado' is clicked on
+
+2023-05-31 09:35:46 - [MESSAGE][PASSED] - presiono el boton guardar
+
+2023-05-31 09:35:46 - [TEST_STEP][PASSED] - Se verifica que se agrego el empleado de forma correcta: Se verifica que se agrego el empleado de forma correcta
+
+2023-05-31 09:35:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-05-31 09:35:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/verificar_carga_Empleado' is visible
+
+2023-05-31 09:35:52 - [MESSAGE][PASSED] - Se verifica que se agrego el empleado de forma correcta
+
+2023-05-31 09:35:52 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Dar de alta registro de emppleado: SCENARIO Dar de alta registro de emppleado
+
+2023-05-31 09:35:52 - [TEST_STEP][PASSED] - que el usuario ingresa al sitio web: que el usuario ingresa al sitio web
+
+2023-05-31 09:35:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-05-31 09:35:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-31 09:35:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-31 09:35:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-31 09:35:58 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-31 09:35:58 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-05-31 09:35:58 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-31 09:35:58 - [MESSAGE][PASSED] - que el usuario ingresa al sitio web
+
+2023-05-31 09:35:58 - [TEST_STEP][PASSED] - el usuario ingresa sus credenciales de manera correcta usuario y clave Admin, hUKwJTbofgPU9eVlw/CnDQ==: el usuario ingresa sus credenciales de manera correcta usuario y clave Admin, hUKwJTbofgPU9eVlw/CnDQ==
+
+2023-05-31 09:35:59 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_Nombre de usuario'
+
+2023-05-31 09:36:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_Password'
+
+2023-05-31 09:36:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/button_Ingresar_Login' is clicked on
+
+2023-05-31 09:36:02 - [MESSAGE][PASSED] - el usuario ingresa sus credenciales de manera correcta usuario y clave Admin, hUKwJTbofgPU9eVlw/CnDQ==
+
+2023-05-31 09:36:02 - [TEST_STEP][PASSED] - quiero agregar un nuevo empleado al registro: quiero agregar un nuevo empleado al registro
+
+2023-05-31 09:36:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/button_Modulo_Informacion_Personal' is clicked on
+
+2023-05-31 09:36:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/button_Agregar_Empleado' is clicked on
+
+2023-05-31 09:36:08 - [MESSAGE][PASSED] - quiero agregar un nuevo empleado al registro
+
+2023-05-31 09:36:08 - [TEST_STEP][PASSED] - ingreso los datos Juan, Rodriguez y 2222: ingreso los datos Juan, Rodriguez y 2222
+
+2023-05-31 09:36:11 - [MESSAGE][PASSED] - Text 'Juan' is set on object 'Object Repository/Page_OrangeHRM/input_Full_Name_firstName'
+
+2023-05-31 09:36:12 - [MESSAGE][PASSED] - Text 'Rodriguez' is set on object 'Object Repository/Page_OrangeHRM/input_Full_Name_lastName'
+
+2023-05-31 09:36:12 - [MESSAGE][PASSED] - Text '2222' is set on object 'Object Repository/Page_OrangeHRM/input_Id del empleado'
+
+2023-05-31 09:36:12 - [MESSAGE][PASSED] - ingreso los datos Juan, Rodriguez y 2222
+
+2023-05-31 09:36:12 - [TEST_STEP][PASSED] - presiono el boton guardar: presiono el boton guardar
+
+2023-05-31 09:36:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/button_Guardar_Informacion_Empleado' is clicked on
+
+2023-05-31 09:36:13 - [MESSAGE][PASSED] - presiono el boton guardar
+
+2023-05-31 09:36:13 - [TEST_STEP][PASSED] - Se verifica que se agrego el empleado de forma correcta: Se verifica que se agrego el empleado de forma correcta
+
+2023-05-31 09:36:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-05-31 09:36:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/verificar_carga_Empleado' is visible
+
+2023-05-31 09:36:20 - [MESSAGE][PASSED] - Se verifica que se agrego el empleado de forma correcta
+
+2023-05-31 09:36:20 - [MESSAGE][PASSED] - Feature file: 'Include/features/Archivo.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CasoCargaArchivo/Prueba" time="17.603" classname="Test Cases/CasoCargaArchivo/Prueba" status="PASSED">
+         <system-out><![CDATA[2023-05-31 09:36:20 - [TEST_CASE][PASSED] - Test Cases/CasoCargaArchivo/Prueba: Test Cases/CasoCargaArchivo/Prueba
+
+2023-05-31 09:36:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-31 09:36:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-05-31 09:36:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-31 09:36:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-31 09:36:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-31 09:36:23 - [TEST_STEP][PASSED] - navigateToUrl("https://testpages.herokuapp.com/styled/file-upload-test.html"): Navigate to 'https://testpages.herokuapp.com/styled/file-upload-test.html' successfully
+
+2023-05-31 09:36:25 - [MESSAGE][PASSED] - Navigate to 'https://testpages.herokuapp.com/styled/file-upload-test.html' successfully
+
+2023-05-31 09:36:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-31 09:36:25 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-31 09:36:25 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Carga_Archivo/Page_Upload a File/Cargar"), System.getProperty("user.dir") + "/Data Files/ArchivoCSV.dat"): File 'C:\Users\admin\git\DemoPresentacion/Data Files/ArchivoCSV.dat' sent to object: 'Object Repository/Carga_Archivo/Page_Upload a File/Cargar'
+
+2023-05-31 09:36:25 - [MESSAGE][PASSED] - File 'C:\Users\admin\git\DemoPresentacion/Data Files/ArchivoCSV.dat' sent to object: 'Object Repository/Carga_Archivo/Page_Upload a File/Cargar'
+
+2023-05-31 09:36:25 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2023-05-31 09:36:29 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-05-31 09:36:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Carga_Archivo/Page_Upload a File/input_What type is it_filetype")): Object: 'Object Repository/Carga_Archivo/Page_Upload a File/input_What type is it_filetype' is clicked on
+
+2023-05-31 09:36:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Carga_Archivo/Page_Upload a File/input_What type is it_filetype' is clicked on
+
+2023-05-31 09:36:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Carga_Archivo/Page_Upload a File/input_A General File_upload")): Object: 'Object Repository/Carga_Archivo/Page_Upload a File/input_A General File_upload' is clicked on
+
+2023-05-31 09:36:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Carga_Archivo/Page_Upload a File/input_A General File_upload' is clicked on
+
+2023-05-31 09:36:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-05-31 09:36:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-31 09:36:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Carga_Archivo/Page_Upload a File/ArchivoCargado"), "You uploaded this file:"): Actual text and expected text of test object 'Object Repository/Carga_Archivo/Page_Upload a File/ArchivoCargado' are matched.
+
+2023-05-31 09:36:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Carga_Archivo/Page_Upload a File/ArchivoCargado' are matched.
+
+2023-05-31 09:36:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-05-31 09:36:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-31 09:36:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-31 09:36:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CasosExcel/CasoWebConArchivoCsvExcel" time="15.625" classname="Test Cases/CasosExcel/CasoWebConArchivoCsvExcel" status="PASSED">
+         <system-out><![CDATA[2023-05-31 09:36:38 - [TEST_CASE][PASSED] - Test Cases/CasosExcel/CasoWebConArchivoCsvExcel: Test Cases/CasosExcel/CasoWebConArchivoCsvExcel
+
+2023-05-31 09:36:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-31 09:36:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-31 09:36:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-31 09:36:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-31 09:36:40 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/"): Navigate to 'https://demoqa.com/' successfully
+
+2023-05-31 09:36:46 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+2023-05-31 09:36:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-31 09:36:46 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-31 09:36:46 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2023-05-31 09:36:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-05-31 09:36:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/div_Elements")): Object: 'Object Repository/Page_DEMOQA/div_Elements' is clicked on
+
+2023-05-31 09:36:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/div_Elements' is clicked on
+
+2023-05-31 09:36:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/li_Text Box")): Object: 'Object Repository/Page_DEMOQA/li_Text Box' is clicked on
+
+2023-05-31 09:36:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/li_Text Box' is clicked on
+
+2023-05-31 09:36:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/input_Full Name_userName"), fullName): Text 'Juan Cruz Mouhape' is set on object 'Object Repository/Page_DEMOQA/input_Full Name_userName'
+
+2023-05-31 09:36:50 - [MESSAGE][PASSED] - Text 'Juan Cruz Mouhape' is set on object 'Object Repository/Page_DEMOQA/input_Full Name_userName'
+
+2023-05-31 09:36:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/input_Email_userEmail"), email): Text 'pruebademo@gmail.com' is set on object 'Object Repository/Page_DEMOQA/input_Email_userEmail'
+
+2023-05-31 09:36:51 - [MESSAGE][PASSED] - Text 'pruebademo@gmail.com' is set on object 'Object Repository/Page_DEMOQA/input_Email_userEmail'
+
+2023-05-31 09:36:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/textarea_Current Address_currentAddress"), currentAddress): Text 'Pasaje San Luis 252' is set on object 'Object Repository/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+2023-05-31 09:36:51 - [MESSAGE][PASSED] - Text 'Pasaje San Luis 252' is set on object 'Object Repository/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+2023-05-31 09:36:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/textarea_Permanent Address_permanentAddress"), permanentAddress): Text 'Pasaje San Luis 252' is set on object 'Object Repository/Page_DEMOQA/textarea_Permanent Address_permanentAddress'
+
+2023-05-31 09:36:52 - [MESSAGE][PASSED] - Text 'Pasaje San Luis 252' is set on object 'Object Repository/Page_DEMOQA/textarea_Permanent Address_permanentAddress'
+
+2023-05-31 09:36:52 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/button_Submit"), 4): Scroll to object 'Object Repository/Page_DEMOQA/button_Submit' successfully
+
+2023-05-31 09:36:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/button_Submit' successfully
+
+2023-05-31 09:36:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/button_Submit")): Object: 'Object Repository/Page_DEMOQA/button_Submit' is clicked on
+
+2023-05-31 09:36:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/button_Submit' is clicked on
+
+2023-05-31 09:36:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-31 09:36:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-05-31 09:35:04 - [TEST_SUITE][PASSED] - TestSuiteGmail: Test Cases/CasosExcel/CasoWebConArchivoCsvExcel]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
